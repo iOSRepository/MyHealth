@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MedicalHistoryCustomCell.h
 //  MyHealth
 //
 //  Created by Ashish Chhabra on 10/18/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MedicalHistoryCustomCell : UITableViewCell
 
-
+@property (nonatomic, retain) IBOutlet UIImageView *imgView_bg;
 @end
-
