@@ -10,4 +10,15 @@
 
 @implementation CommentListing
 
+-(id)init{
+    
+    self = [super init];
+    
+    if (self) {
+        
+        self.arrayComments = (id)[NSMutableArray new];
+    }
+    return self;
+    
+}
 @end

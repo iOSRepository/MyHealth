@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIButton+Extentions.h"
 @interface EmergencyViewController : UIViewController
-
+@property (nonatomic, retain) IBOutlet UIButton *btn_back;
 @end

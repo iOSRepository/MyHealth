@@ -10,4 +10,14 @@
 
 @implementation Patient
 
+-(id)init
+{
+    self = [super init];
+    
+    if (self) {
+        
+        self.userDetails = (id)[NSMutableArray new];
+    }
+    return self;
+}
 @end

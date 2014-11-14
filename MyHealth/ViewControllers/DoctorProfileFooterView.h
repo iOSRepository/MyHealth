@@ -10,4 +10,8 @@
 
 @interface DoctorProfileFooterView : UIView
 
+@property (nonatomic, retain) IBOutlet UIButton *btn_addNotes;
+@property (nonatomic, retain) IBOutlet UIButton *btn_addComment;
+
+
 @end

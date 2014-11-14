@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "MGSwipeTableCell.h"
-
+#import "UIButton+Extentions.h"
 @interface MedicalDocumentsViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,MGSwipeTableCellDelegate>
 
+@property (nonatomic, retain) IBOutlet UILabel *lbl_title;
 @property (nonatomic, retain) IBOutlet UITableView *tblView_medicalHistory;
+@property (nonatomic, retain) IBOutlet UIButton *btn_back;
 @end

@@ -11,4 +11,7 @@
 @interface DoctorCommentsCustomCell : UITableViewCell
 
 @property (nonatomic, retain) IBOutlet UIImageView *imgView_user;
+@property (nonatomic, retain) IBOutlet UIImageView *higylighter;
+@property (nonatomic, retain) IBOutlet UILabel *lbl_name;
+@property (nonatomic, retain) IBOutlet UILabel *lbl_text;
 @end

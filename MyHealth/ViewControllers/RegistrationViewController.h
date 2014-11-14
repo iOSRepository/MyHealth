@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIButton+Extentions.h"
 @interface RegistrationViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UITextField *txtfield_userName;
+@property (nonatomic, retain) IBOutlet UITextField *txtfield_lastName;
+@property (nonatomic, retain) IBOutlet UITextField *txtfield_userPassword;
+@property (nonatomic, retain) IBOutlet UITextField *txtfield_userEmail;
+@property (nonatomic, retain) IBOutlet UITextField *txtfield_firstName;
+@property (nonatomic, retain) IBOutlet UIButton *btn_uploadImage;
+@property (nonatomic, retain) IBOutlet UIButton *btn_register;
+@property (nonatomic, retain) IBOutlet UIButton *btn_back;
 @end

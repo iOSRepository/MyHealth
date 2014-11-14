@@ -9,6 +9,7 @@
 #import "Connection.h"
 #import "AppDelegate.h"
 #import "GlobalVariables.h"
+#import "Macros.h"
 @implementation Connection
 {
     GlobalVariables *globalVar;
@@ -31,16 +32,12 @@
     //Set up request
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
     
-    // Setting request header
-    [request setValue:APP_KEY forHTTPHeaderField:@"app_key"];
-    [request setValue:[params valueForKey:@"username"] forHTTPHeaderField:@"user_key"];
-    [request setValue:[params valueForKey:@"password"] forHTTPHeaderField:@"user_secret"];
     
     // Setting HTTP - Body
     NSMutableDictionary *dicBody = [[NSMutableDictionary alloc] init];
     [dicBody setValue:[UIDevice currentDevice].model forKeyPath:@"device_type"];
     [dicBody setValue:[UIDevice currentDevice].systemVersion forKeyPath:@"version"];
-    [dicBody setValue:[UIDevice currentDevice].identifierForVendor.UUIDString forKeyPath:@"device_id"];
+    [dicBody setValue:[UIDevice currentDevice].identifierForVendor.UUIDString forKeyPath:@"user_device_token"];
     
     [request setHTTPMethod:@"POST"];
     

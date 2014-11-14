@@ -7,7 +7,8 @@
 //
 
 #import "JSONModel.h"
-
+#import "Comments.h"
 @interface CommentListing : JSONModel
 
+@property (nonatomic, retain) NSMutableArray <Comments> *arrayComments;
 @end

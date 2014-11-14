@@ -10,4 +10,5 @@
 
 @interface DoctorNotesCustomCell : UITableViewCell
 
+@property (nonatomic, retain) IBOutlet UILabel *lbl_note;
 @end

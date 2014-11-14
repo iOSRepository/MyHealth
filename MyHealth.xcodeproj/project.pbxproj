@@ -63,7 +63,6 @@
 		7528489F19F278C90016F54F /* DoctorHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7528489D19F278C90016F54F /* DoctorHistoryTableViewCell.xib */; };
 		752848A519F2795B0016F54F /* DoctorHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752848A419F2795B0016F54F /* DoctorHistoryViewController.m */; };
 		752848B119F2822E0016F54F /* button_checkboxempty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752848A719F2822E0016F54F /* button_checkboxempty@2x.png */; };
-		752848B219F2822E0016F54F /* button_checkboxfilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752848A819F2822E0016F54F /* button_checkboxfilled@2x.png */; };
 		752848B319F2822E0016F54F /* button_deselectall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752848A919F2822E0016F54F /* button_deselectall@2x.png */; };
 		752848B419F2822E0016F54F /* button_selectall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752848AA19F2822E0016F54F /* button_selectall@2x.png */; };
 		752848B519F2822E0016F54F /* icon_fieldempty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752848AB19F2822E0016F54F /* icon_fieldempty@2x.png */; };
@@ -87,6 +86,30 @@
 		752848D719F2B83C0016F54F /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752848CF19F2B83C0016F54F /* Icon-60@2x.png */; };
 		752848D819F2B83C0016F54F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 752848D019F2B83C0016F54F /* Icon.png */; };
 		752848D919F2B83C0016F54F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 752848D119F2B83C0016F54F /* Icon@2x.png */; };
+		7558756D1A0C681700BDFE1C /* Medication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558756C1A0C681700BDFE1C /* Medication.m */; };
+		755875701A0C6A2000BDFE1C /* DoctorVisits.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558756F1A0C6A2000BDFE1C /* DoctorVisits.m */; };
+		7583698A1A02B75100F83C7B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758369891A02B75100F83C7B /* LoginViewController.m */; };
+		75898BFF1A03EACD0026C6A2 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 75898BFE1A03EACD0026C6A2 /* Connection.m */; };
+		75898C041A03EB190026C6A2 /* GlobalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 75898C031A03EB190026C6A2 /* GlobalVariables.m */; };
+		75898C071A03F8AF0026C6A2 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75898C061A03F8AF0026C6A2 /* RegistrationViewController.m */; };
+		7593E8791A07F0F600E34F73 /* PatientDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 7593E8781A07F0F600E34F73 /* PatientDetails.m */; };
+		7593E87C1A07F15000E34F73 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7593E87B1A07F15000E34F73 /* Patient.m */; };
+		7593E87E1A07FFC500E34F73 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7593E87D1A07FFC500E34F73 /* FacebookSDK.framework */; };
+		7593E8801A07FFEC00E34F73 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7593E87F1A07FFEC00E34F73 /* FBUserSettingsViewResources.bundle */; };
+		75A3D8F91A0615080068D15E /* DoctorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3D8F81A0615080068D15E /* DoctorInfo.m */; };
+		75A3D8FC1A06151A0068D15E /* Comments.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3D8FB1A06151A0068D15E /* Comments.m */; };
+		75A3D8FF1A0619960068D15E /* DoctorListing.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3D8FE1A0619960068D15E /* DoctorListing.m */; };
+		75A3D9021A063E3C0068D15E /* CommentListing.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3D9011A063E3C0068D15E /* CommentListing.m */; };
+		75A3D9051A0651A50068D15E /* CustomIOS7AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3D9041A0651A50068D15E /* CustomIOS7AlertView.m */; };
+		75A807401A152A8A005210CE /* PatientPresentHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8073F1A152A8A005210CE /* PatientPresentHealth.m */; };
+		75A807431A152D58005210CE /* PatientPastHistroy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A807421A152D58005210CE /* PatientPastHistroy.m */; };
+		75A807461A152D72005210CE /* PastRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A807451A152D72005210CE /* PastRecord.m */; };
+		75A8074C1A1533BD005210CE /* Allergies.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8074B1A1533BD005210CE /* Allergies.m */; };
+		75A8074F1A1533E2005210CE /* AllergyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8074E1A1533E2005210CE /* AllergyInfo.m */; };
+		75A807521A1533F4005210CE /* AllergyStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A807511A1533F4005210CE /* AllergyStatus.m */; };
+		75A807551A153AE6005210CE /* SufferingMembers.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A807541A153AE6005210CE /* SufferingMembers.m */; };
+		75A807581A153B26005210CE /* IllnessDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A807571A153B26005210CE /* IllnessDetails.m */; };
+		75A8075B1A15403C005210CE /* IllnessType.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8075A1A15403C005210CE /* IllnessType.m */; };
 		75ADA07C19F6B88C00BA3E44 /* DoctorProfileHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75ADA07B19F6B88C00BA3E44 /* DoctorProfileHeaderView.m */; };
 		75ADA07F19F6B9AF00BA3E44 /* DoctorProfileFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75ADA07E19F6B9AF00BA3E44 /* DoctorProfileFooterView.m */; };
 		75ADA08119F6B9BE00BA3E44 /* DoctorProfileFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75ADA08019F6B9BE00BA3E44 /* DoctorProfileFooterView.xib */; };
@@ -96,6 +119,29 @@
 		75ADA08B19F6D03900BA3E44 /* doc.png in Resources */ = {isa = PBXBuildFile; fileRef = 75ADA08A19F6D03900BA3E44 /* doc.png */; };
 		75ADA08F19F6D2BB00BA3E44 /* DoctorEducationHistroyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75ADA08D19F6D2BB00BA3E44 /* DoctorEducationHistroyCell.m */; };
 		75ADA09019F6D2BB00BA3E44 /* DoctorEducationHistroyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75ADA08E19F6D2BB00BA3E44 /* DoctorEducationHistroyCell.xib */; };
+		75AF342D1A13B4BC0018F3B9 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AF342C1A13B4BC0018F3B9 /* libGTLTouchStaticLib.a */; };
+		75AF342F1A13B4DF0018F3B9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AF342E1A13B4DF0018F3B9 /* MobileCoreServices.framework */; };
+		75AF34311A13B6A40018F3B9 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75AF34301A13B6A40018F3B9 /* GTMOAuth2ViewTouch.xib */; };
+		75AF34341A13B6D90018F3B9 /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AF34321A13B6D90018F3B9 /* GTLDrive_Sources.m */; };
+		75AF34371A13B70E0018F3B9 /* DriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AF34361A13B70E0018F3B9 /* DriveViewController.m */; };
+		75AF34441A13E43E0018F3B9 /* LiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AF34431A13E43E0018F3B9 /* LiveSDK.framework */; };
+		75AF8D051A0DEE74000EBF6C /* icon_contactdoctor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AF8D011A0DEE74000EBF6C /* icon_contactdoctor@2x.png */; };
+		75AF8D061A0DEE74000EBF6C /* icon_degree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AF8D021A0DEE74000EBF6C /* icon_degree@2x.png */; };
+		75AF8D071A0DEE74000EBF6C /* icon_directions@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AF8D031A0DEE74000EBF6C /* icon_directions@2x.png */; };
+		75AF8D081A0DEE74000EBF6C /* icon_recommenddoctor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AF8D041A0DEE74000EBF6C /* icon_recommenddoctor@2x.png */; };
+		75B2DF501A0F32CC007716AA /* STCollapseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2DF4F1A0F32CC007716AA /* STCollapseTableView.m */; };
+		75B2DF541A0F9CF5007716AA /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75B2DF511A0F9CF5007716AA /* Oswald-Bold.ttf */; };
+		75B2DF551A0F9CF5007716AA /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75B2DF521A0F9CF5007716AA /* Oswald-Light.ttf */; };
+		75B2DF561A0F9CF5007716AA /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75B2DF531A0F9CF5007716AA /* Oswald-Regular.ttf */; };
+		75B2DF581A0FD01F007716AA /* fb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B2DF571A0FD01F007716AA /* fb@2x.png */; };
+		75B2DF5A1A0FD584007716AA /* uploadImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B2DF591A0FD584007716AA /* uploadImage@2x.png */; };
+		75B2DF5C1A0FD813007716AA /* userImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B2DF5B1A0FD813007716AA /* userImage@2x.png */; };
+		75B3413B1A128D6500FC11FD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B3413A1A128D6500FC11FD /* CFNetwork.framework */; };
+		75B3413D1A128D6E00FC11FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B3413C1A128D6E00FC11FD /* Security.framework */; };
+		75B3413F1A128D7700FC11FD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B3413E1A128D7700FC11FD /* SystemConfiguration.framework */; };
+		75B341411A128D8000FC11FD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B341401A128D8000FC11FD /* QuartzCore.framework */; };
+		75B341431A128D8A00FC11FD /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B341421A128D8A00FC11FD /* libc++.dylib */; };
+		75B341451A128D9400FC11FD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B341441A128D9400FC11FD /* libz.dylib */; };
 		75B351D519F8DC3200D02CDA /* DoctorCommentsCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B351D319F8DC3200D02CDA /* DoctorCommentsCustomCell.m */; };
 		75B351D619F8DC3200D02CDA /* DoctorCommentsCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B351D419F8DC3200D02CDA /* DoctorCommentsCustomCell.xib */; };
 		75B351DA19F8E0B300D02CDA /* DoctorNotesCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B351D819F8E0B300D02CDA /* DoctorNotesCustomCell.m */; };
@@ -123,7 +169,20 @@
 		75B3520F19F9254600D02CDA /* icon_connecttop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B3520019F9254600D02CDA /* icon_connecttop@2x.png */; };
 		75B3521119F9254600D02CDA /* icon_doc.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B3520219F9254600D02CDA /* icon_doc.png */; };
 		75B3521219F9254600D02CDA /* icon_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B3520319F9254600D02CDA /* icon_image@2x.png */; };
+		75B5A2161A16254400C1ECCC /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B5A2151A16254400C1ECCC /* SyncViewController.m */; };
+		75B5A2181A163C0F00C1ECCC /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B5A2171A163C0F00C1ECCC /* DropboxSDK.framework */; };
+		75B7B2F61A11332600038EDF /* UIButton+Extentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B7B2F51A11332600038EDF /* UIButton+Extentions.m */; };
+		75B808661A0BDFA400187A6B /* GeneralInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B808551A0BDFA400187A6B /* GeneralInfo.m */; };
+		75B808681A0BDFA400187A6B /* GeneralQuestions.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B808591A0BDFA400187A6B /* GeneralQuestions.m */; };
+		75B8086A1A0BDFA400187A6B /* FamilyIllness.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B8085D1A0BDFA400187A6B /* FamilyIllness.m */; };
+		75B8086C1A0BDFA400187A6B /* AdditionalQuestions.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B808611A0BDFA400187A6B /* AdditionalQuestions.m */; };
+		75B8086D1A0BDFA400187A6B /* AdditionalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B808631A0BDFA400187A6B /* AdditionalInfo.m */; };
+		75B8086E1A0BDFA400187A6B /* MedicalHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B808651A0BDFA400187A6B /* MedicalHistory.m */; };
 		75B91EE819F5602200FDA7F4 /* DoctorProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B91EE719F5602200FDA7F4 /* DoctorProfileViewController.m */; };
+		75BC6F891A0A8FF30063289A /* DegreeDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BC6F881A0A8FF30063289A /* DegreeDetails.m */; };
+		75BC6F8C1A0A90A70063289A /* Degree.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BC6F8B1A0A90A70063289A /* Degree.m */; };
+		75BC6F8F1A0A94C60063289A /* NoteDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BC6F8E1A0A94C60063289A /* NoteDetails.m */; };
+		75BC6F921A0A97D50063289A /* Notes.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BC6F911A0A97D50063289A /* Notes.m */; };
 		75CBD3BD19FBA83100686774 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CBD3BC19FBA83100686774 /* SettingsViewController.m */; };
 		75CBD3C119FBAD1E00686774 /* button_common.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CBD3BF19FBAD1E00686774 /* button_common.png */; };
 		75CBD3C219FBAD1E00686774 /* button_common@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CBD3C019FBAD1E00686774 /* button_common@2x.png */; };
@@ -160,6 +219,8 @@
 		75CBD40B19FC094F00686774 /* icon_connecticloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CBD40719FC094F00686774 /* icon_connecticloud.png */; };
 		75CBD40D19FC0FD100686774 /* icon_favorite_nactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CBD40C19FC0FD100686774 /* icon_favorite_nactive.png */; };
 		75CBD41019FC113200686774 /* GloblaSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CBD40F19FC113200686774 /* GloblaSearchViewController.m */; };
+		75CF34751A09395C00C6B035 /* button_pleaserate_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CF34731A09395C00C6B035 /* button_pleaserate_full@2x.png */; };
+		75CF34761A09395C00C6B035 /* button_pleaserate_null@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CF34741A09395C00C6B035 /* button_pleaserate_null@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,7 +301,6 @@
 		752848A319F2795B0016F54F /* DoctorHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorHistoryViewController.h; sourceTree = "<group>"; };
 		752848A419F2795B0016F54F /* DoctorHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorHistoryViewController.m; sourceTree = "<group>"; };
 		752848A719F2822E0016F54F /* button_checkboxempty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_checkboxempty@2x.png"; sourceTree = "<group>"; };
-		752848A819F2822E0016F54F /* button_checkboxfilled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_checkboxfilled@2x.png"; sourceTree = "<group>"; };
 		752848A919F2822E0016F54F /* button_deselectall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_deselectall@2x.png"; sourceTree = "<group>"; };
 		752848AA19F2822E0016F54F /* button_selectall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_selectall@2x.png"; sourceTree = "<group>"; };
 		752848AB19F2822E0016F54F /* icon_fieldempty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_fieldempty@2x.png"; sourceTree = "<group>"; };
@@ -264,6 +324,53 @@
 		752848CF19F2B83C0016F54F /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		752848D019F2B83C0016F54F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		752848D119F2B83C0016F54F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7558756B1A0C681700BDFE1C /* Medication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medication.h; sourceTree = "<group>"; };
+		7558756C1A0C681700BDFE1C /* Medication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medication.m; sourceTree = "<group>"; };
+		7558756E1A0C6A2000BDFE1C /* DoctorVisits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorVisits.h; sourceTree = "<group>"; };
+		7558756F1A0C6A2000BDFE1C /* DoctorVisits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorVisits.m; sourceTree = "<group>"; };
+		758369881A02B75100F83C7B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		758369891A02B75100F83C7B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		75898BFD1A03EACD0026C6A2 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		75898BFE1A03EACD0026C6A2 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		75898C011A03EB190026C6A2 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		75898C021A03EB190026C6A2 /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
+		75898C031A03EB190026C6A2 /* GlobalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariables.m; sourceTree = "<group>"; };
+		75898C051A03F8AF0026C6A2 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		75898C061A03F8AF0026C6A2 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		7593E8771A07F0F600E34F73 /* PatientDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientDetails.h; sourceTree = "<group>"; };
+		7593E8781A07F0F600E34F73 /* PatientDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientDetails.m; sourceTree = "<group>"; };
+		7593E87A1A07F15000E34F73 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		7593E87B1A07F15000E34F73 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		7593E87D1A07FFC500E34F73 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		7593E87F1A07FFEC00E34F73 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		75A3D8F71A0615080068D15E /* DoctorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorInfo.h; sourceTree = "<group>"; };
+		75A3D8F81A0615080068D15E /* DoctorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorInfo.m; sourceTree = "<group>"; };
+		75A3D8FA1A06151A0068D15E /* Comments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comments.h; sourceTree = "<group>"; };
+		75A3D8FB1A06151A0068D15E /* Comments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comments.m; sourceTree = "<group>"; };
+		75A3D8FD1A0619960068D15E /* DoctorListing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorListing.h; sourceTree = "<group>"; };
+		75A3D8FE1A0619960068D15E /* DoctorListing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorListing.m; sourceTree = "<group>"; };
+		75A3D9001A063E3C0068D15E /* CommentListing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentListing.h; sourceTree = "<group>"; };
+		75A3D9011A063E3C0068D15E /* CommentListing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentListing.m; sourceTree = "<group>"; };
+		75A3D9031A0651A50068D15E /* CustomIOS7AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOS7AlertView.h; sourceTree = "<group>"; };
+		75A3D9041A0651A50068D15E /* CustomIOS7AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOS7AlertView.m; sourceTree = "<group>"; };
+		75A8073E1A152A8A005210CE /* PatientPresentHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientPresentHealth.h; sourceTree = "<group>"; };
+		75A8073F1A152A8A005210CE /* PatientPresentHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientPresentHealth.m; sourceTree = "<group>"; };
+		75A807411A152D58005210CE /* PatientPastHistroy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientPastHistroy.h; sourceTree = "<group>"; };
+		75A807421A152D58005210CE /* PatientPastHistroy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientPastHistroy.m; sourceTree = "<group>"; };
+		75A807441A152D72005210CE /* PastRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastRecord.h; sourceTree = "<group>"; };
+		75A807451A152D72005210CE /* PastRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastRecord.m; sourceTree = "<group>"; };
+		75A8074A1A1533BD005210CE /* Allergies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Allergies.h; sourceTree = "<group>"; };
+		75A8074B1A1533BD005210CE /* Allergies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Allergies.m; sourceTree = "<group>"; };
+		75A8074D1A1533E2005210CE /* AllergyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllergyInfo.h; sourceTree = "<group>"; };
+		75A8074E1A1533E2005210CE /* AllergyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllergyInfo.m; sourceTree = "<group>"; };
+		75A807501A1533F4005210CE /* AllergyStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllergyStatus.h; sourceTree = "<group>"; };
+		75A807511A1533F4005210CE /* AllergyStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllergyStatus.m; sourceTree = "<group>"; };
+		75A807531A153AE6005210CE /* SufferingMembers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SufferingMembers.h; sourceTree = "<group>"; };
+		75A807541A153AE6005210CE /* SufferingMembers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SufferingMembers.m; sourceTree = "<group>"; };
+		75A807561A153B26005210CE /* IllnessDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IllnessDetails.h; sourceTree = "<group>"; };
+		75A807571A153B26005210CE /* IllnessDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IllnessDetails.m; sourceTree = "<group>"; };
+		75A807591A15403C005210CE /* IllnessType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IllnessType.h; sourceTree = "<group>"; };
+		75A8075A1A15403C005210CE /* IllnessType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IllnessType.m; sourceTree = "<group>"; };
 		75ADA07A19F6B88C00BA3E44 /* DoctorProfileHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorProfileHeaderView.h; sourceTree = "<group>"; };
 		75ADA07B19F6B88C00BA3E44 /* DoctorProfileHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorProfileHeaderView.m; sourceTree = "<group>"; };
 		75ADA07D19F6B9AF00BA3E44 /* DoctorProfileFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorProfileFooterView.h; sourceTree = "<group>"; };
@@ -276,6 +383,32 @@
 		75ADA08C19F6D2BB00BA3E44 /* DoctorEducationHistroyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorEducationHistroyCell.h; sourceTree = "<group>"; };
 		75ADA08D19F6D2BB00BA3E44 /* DoctorEducationHistroyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorEducationHistroyCell.m; sourceTree = "<group>"; };
 		75ADA08E19F6D2BB00BA3E44 /* DoctorEducationHistroyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorEducationHistroyCell.xib; sourceTree = "<group>"; };
+		75AF342C1A13B4BC0018F3B9 /* libGTLTouchStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTLTouchStaticLib.a; path = "../../Google/google-api-objectivec-client-read-only/Source/build/Debug-iphoneos/libGTLTouchStaticLib.a"; sourceTree = "<group>"; };
+		75AF342E1A13B4DF0018F3B9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		75AF34301A13B6A40018F3B9 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		75AF34321A13B6D90018F3B9 /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrive_Sources.m; sourceTree = "<group>"; };
+		75AF34331A13B6D90018F3B9 /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
+		75AF34351A13B70E0018F3B9 /* DriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveViewController.h; sourceTree = "<group>"; };
+		75AF34361A13B70E0018F3B9 /* DriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveViewController.m; sourceTree = "<group>"; };
+		75AF34431A13E43E0018F3B9 /* LiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiveSDK.framework; path = ../../LiveSDK.framework; sourceTree = "<group>"; };
+		75AF8D011A0DEE74000EBF6C /* icon_contactdoctor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_contactdoctor@2x.png"; sourceTree = "<group>"; };
+		75AF8D021A0DEE74000EBF6C /* icon_degree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_degree@2x.png"; sourceTree = "<group>"; };
+		75AF8D031A0DEE74000EBF6C /* icon_directions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_directions@2x.png"; sourceTree = "<group>"; };
+		75AF8D041A0DEE74000EBF6C /* icon_recommenddoctor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_recommenddoctor@2x.png"; sourceTree = "<group>"; };
+		75B2DF4E1A0F32CC007716AA /* STCollapseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCollapseTableView.h; sourceTree = "<group>"; };
+		75B2DF4F1A0F32CC007716AA /* STCollapseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCollapseTableView.m; sourceTree = "<group>"; };
+		75B2DF511A0F9CF5007716AA /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		75B2DF521A0F9CF5007716AA /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		75B2DF531A0F9CF5007716AA /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		75B2DF571A0FD01F007716AA /* fb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb@2x.png"; sourceTree = "<group>"; };
+		75B2DF591A0FD584007716AA /* uploadImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uploadImage@2x.png"; sourceTree = "<group>"; };
+		75B2DF5B1A0FD813007716AA /* userImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userImage@2x.png"; sourceTree = "<group>"; };
+		75B3413A1A128D6500FC11FD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		75B3413C1A128D6E00FC11FD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		75B3413E1A128D7700FC11FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		75B341401A128D8000FC11FD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75B341421A128D8A00FC11FD /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		75B341441A128D9400FC11FD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		75B351D219F8DC3200D02CDA /* DoctorCommentsCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorCommentsCustomCell.h; sourceTree = "<group>"; };
 		75B351D319F8DC3200D02CDA /* DoctorCommentsCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorCommentsCustomCell.m; sourceTree = "<group>"; };
 		75B351D419F8DC3200D02CDA /* DoctorCommentsCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorCommentsCustomCell.xib; sourceTree = "<group>"; };
@@ -307,8 +440,33 @@
 		75B3520019F9254600D02CDA /* icon_connecttop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_connecttop@2x.png"; sourceTree = "<group>"; };
 		75B3520219F9254600D02CDA /* icon_doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_doc.png; sourceTree = "<group>"; };
 		75B3520319F9254600D02CDA /* icon_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_image@2x.png"; sourceTree = "<group>"; };
+		75B5A2141A16254400C1ECCC /* SyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncViewController.h; sourceTree = "<group>"; };
+		75B5A2151A16254400C1ECCC /* SyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncViewController.m; sourceTree = "<group>"; };
+		75B5A2171A163C0F00C1ECCC /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		75B7B2F41A11332600038EDF /* UIButton+Extentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extentions.h"; sourceTree = "<group>"; };
+		75B7B2F51A11332600038EDF /* UIButton+Extentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extentions.m"; sourceTree = "<group>"; };
+		75B808541A0BDFA400187A6B /* GeneralInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralInfo.h; sourceTree = "<group>"; };
+		75B808551A0BDFA400187A6B /* GeneralInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralInfo.m; sourceTree = "<group>"; };
+		75B808581A0BDFA400187A6B /* GeneralQuestions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralQuestions.h; sourceTree = "<group>"; };
+		75B808591A0BDFA400187A6B /* GeneralQuestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralQuestions.m; sourceTree = "<group>"; };
+		75B8085C1A0BDFA400187A6B /* FamilyIllness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyIllness.h; sourceTree = "<group>"; };
+		75B8085D1A0BDFA400187A6B /* FamilyIllness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyIllness.m; sourceTree = "<group>"; };
+		75B808601A0BDFA400187A6B /* AdditionalQuestions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionalQuestions.h; sourceTree = "<group>"; };
+		75B808611A0BDFA400187A6B /* AdditionalQuestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionalQuestions.m; sourceTree = "<group>"; };
+		75B808621A0BDFA400187A6B /* AdditionalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionalInfo.h; sourceTree = "<group>"; };
+		75B808631A0BDFA400187A6B /* AdditionalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionalInfo.m; sourceTree = "<group>"; };
+		75B808641A0BDFA400187A6B /* MedicalHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalHistory.h; sourceTree = "<group>"; };
+		75B808651A0BDFA400187A6B /* MedicalHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalHistory.m; sourceTree = "<group>"; };
 		75B91EE619F5602200FDA7F4 /* DoctorProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorProfileViewController.h; sourceTree = "<group>"; };
 		75B91EE719F5602200FDA7F4 /* DoctorProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorProfileViewController.m; sourceTree = "<group>"; };
+		75BC6F871A0A8FF30063289A /* DegreeDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DegreeDetails.h; sourceTree = "<group>"; };
+		75BC6F881A0A8FF30063289A /* DegreeDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DegreeDetails.m; sourceTree = "<group>"; };
+		75BC6F8A1A0A90A70063289A /* Degree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Degree.h; sourceTree = "<group>"; };
+		75BC6F8B1A0A90A70063289A /* Degree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Degree.m; sourceTree = "<group>"; };
+		75BC6F8D1A0A94C60063289A /* NoteDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetails.h; sourceTree = "<group>"; };
+		75BC6F8E1A0A94C60063289A /* NoteDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetails.m; sourceTree = "<group>"; };
+		75BC6F901A0A97D50063289A /* Notes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notes.h; sourceTree = "<group>"; };
+		75BC6F911A0A97D50063289A /* Notes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notes.m; sourceTree = "<group>"; };
 		75CBD3BB19FBA83100686774 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		75CBD3BC19FBA83100686774 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		75CBD3BF19FBAD1E00686774 /* button_common.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_common.png; sourceTree = "<group>"; };
@@ -354,6 +512,8 @@
 		75CBD40C19FC0FD100686774 /* icon_favorite_nactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_favorite_nactive.png; sourceTree = "<group>"; };
 		75CBD40E19FC113200686774 /* GloblaSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GloblaSearchViewController.h; sourceTree = "<group>"; };
 		75CBD40F19FC113200686774 /* GloblaSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GloblaSearchViewController.m; sourceTree = "<group>"; };
+		75CF34731A09395C00C6B035 /* button_pleaserate_full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_pleaserate_full@2x.png"; sourceTree = "<group>"; };
+		75CF34741A09395C00C6B035 /* button_pleaserate_null@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_pleaserate_null@2x.png"; sourceTree = "<group>"; };
 		7B8C5E22FBDC5BFD208D8D52 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FBCF72415EE02F8ECC0B81 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D1643A5D5254EE71D3BABD40 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -364,7 +524,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B341411A128D8000FC11FD /* QuartzCore.framework in Frameworks */,
+				75AF34441A13E43E0018F3B9 /* LiveSDK.framework in Frameworks */,
+				75AF342F1A13B4DF0018F3B9 /* MobileCoreServices.framework in Frameworks */,
+				75B3413F1A128D7700FC11FD /* SystemConfiguration.framework in Frameworks */,
+				75B3413D1A128D6E00FC11FD /* Security.framework in Frameworks */,
+				75AF342D1A13B4BC0018F3B9 /* libGTLTouchStaticLib.a in Frameworks */,
+				75B5A2181A163C0F00C1ECCC /* DropboxSDK.framework in Frameworks */,
+				75B341451A128D9400FC11FD /* libz.dylib in Frameworks */,
+				75B341431A128D8A00FC11FD /* libc++.dylib in Frameworks */,
+				75B3413B1A128D6500FC11FD /* CFNetwork.framework in Frameworks */,
 				2FF3A13AC64BF7A56E1B2BEB /* libPods.a in Frameworks */,
+				7593E87E1A07FFC500E34F73 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,10 +581,17 @@
 		7528481419F2354B0016F54F /* MyHealth */ = {
 			isa = PBXGroup;
 			children = (
+				75B7B2F31A11331000038EDF /* Category */,
+				75A3D9061A06A2D40068D15E /* Fonts */,
+				75A3D8F51A0614BD0068D15E /* Data Models */,
+				75898C001A03EB040026C6A2 /* Helper Classes */,
+				75898BFC1A03EABC0026C6A2 /* Connection Classes */,
 				75CBD3D619FBE2FB00686774 /* Thrid Party */,
 				7528484819F23CCD0016F54F /* Images */,
 				7528486219F249250016F54F /* CustomCells */,
 				7528486119F2491E0016F54F /* ViewControllers */,
+				75AF34321A13B6D90018F3B9 /* GTLDrive_Sources.m */,
+				75AF34331A13B6D90018F3B9 /* GTLDrive.h */,
 				7528481919F2354B0016F54F /* AppDelegate.h */,
 				7528481A19F2354B0016F54F /* AppDelegate.m */,
 				7528482219F2354B0016F54F /* Main.storyboard */,
@@ -428,6 +606,8 @@
 		7528481519F2354B0016F54F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				75B5A2171A163C0F00C1ECCC /* DropboxSDK.framework */,
+				75AF34301A13B6A40018F3B9 /* GTMOAuth2ViewTouch.xib */,
 				7528481619F2354B0016F54F /* Info.plist */,
 				7528481719F2354B0016F54F /* main.m */,
 			);
@@ -490,18 +670,20 @@
 		7528486119F2491E0016F54F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				75B2DF4E1A0F32CC007716AA /* STCollapseTableView.h */,
+				75B2DF4F1A0F32CC007716AA /* STCollapseTableView.m */,
 				75CBD3BB19FBA83100686774 /* SettingsViewController.h */,
 				75CBD3BC19FBA83100686774 /* SettingsViewController.m */,
 				75CBD3D319FBC3B100686774 /* EmergencyViewController.h */,
 				75CBD3D419FBC3B100686774 /* EmergencyViewController.m */,
 				7528483E19F237370016F54F /* HomeViewController.h */,
 				7528483F19F237370016F54F /* HomeViewController.m */,
+				75B91EE619F5602200FDA7F4 /* DoctorProfileViewController.h */,
+				75B91EE719F5602200FDA7F4 /* DoctorProfileViewController.m */,
 				7528485E19F243000016F54F /* MedicalHistoryViewController.h */,
 				7528485F19F243000016F54F /* MedicalHistoryViewController.m */,
 				752848A319F2795B0016F54F /* DoctorHistoryViewController.h */,
 				752848A419F2795B0016F54F /* DoctorHistoryViewController.m */,
-				75B91EE619F5602200FDA7F4 /* DoctorProfileViewController.h */,
-				75B91EE719F5602200FDA7F4 /* DoctorProfileViewController.m */,
 				75B351EC19F9201400D02CDA /* MedicalDocumentsViewController.h */,
 				75B351ED19F9201400D02CDA /* MedicalDocumentsViewController.m */,
 				75ADA07A19F6B88C00BA3E44 /* DoctorProfileHeaderView.h */,
@@ -516,6 +698,14 @@
 				75CBD3FA19FBFD4400686774 /* ShareViewController.m */,
 				75CBD40E19FC113200686774 /* GloblaSearchViewController.h */,
 				75CBD40F19FC113200686774 /* GloblaSearchViewController.m */,
+				758369881A02B75100F83C7B /* LoginViewController.h */,
+				758369891A02B75100F83C7B /* LoginViewController.m */,
+				75898C051A03F8AF0026C6A2 /* RegistrationViewController.h */,
+				75898C061A03F8AF0026C6A2 /* RegistrationViewController.m */,
+				75AF34351A13B70E0018F3B9 /* DriveViewController.h */,
+				75AF34361A13B70E0018F3B9 /* DriveViewController.m */,
+				75B5A2141A16254400C1ECCC /* SyncViewController.h */,
+				75B5A2151A16254400C1ECCC /* SyncViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -560,6 +750,7 @@
 		7528486819F24C760016F54F /* Medical History */ = {
 			isa = PBXGroup;
 			children = (
+				75B2DF571A0FD01F007716AA /* fb@2x.png */,
 				75CBD40C19FC0FD100686774 /* icon_favorite_nactive.png */,
 				75CBD3E119FBE8AC00686774 /* button_move.png */,
 				75CBD3E219FBE8AC00686774 /* button_delete.png */,
@@ -597,6 +788,12 @@
 		752848A619F282140016F54F /* Doctor History */ = {
 			isa = PBXGroup;
 			children = (
+				75AF8D011A0DEE74000EBF6C /* icon_contactdoctor@2x.png */,
+				75AF8D021A0DEE74000EBF6C /* icon_degree@2x.png */,
+				75AF8D031A0DEE74000EBF6C /* icon_directions@2x.png */,
+				75AF8D041A0DEE74000EBF6C /* icon_recommenddoctor@2x.png */,
+				75CF34731A09395C00C6B035 /* button_pleaserate_full@2x.png */,
+				75CF34741A09395C00C6B035 /* button_pleaserate_null@2x.png */,
 				75B351E619F9132500D02CDA /* icon_separatormynotes@2x.png */,
 				75B351E219F901B000D02CDA /* icon_edu@2x 2.png */,
 				75B351E319F901B000D02CDA /* icon_edu.png */,
@@ -609,7 +806,6 @@
 				75ADA08219F6C08500BA3E44 /* icon_doctorspecial@2x.png */,
 				752848C719F2B5FB0016F54F /* doctor.png */,
 				752848A719F2822E0016F54F /* button_checkboxempty@2x.png */,
-				752848A819F2822E0016F54F /* button_checkboxfilled@2x.png */,
 				752848A919F2822E0016F54F /* button_deselectall@2x.png */,
 				752848AA19F2822E0016F54F /* button_selectall@2x.png */,
 				752848AB19F2822E0016F54F /* icon_fieldempty@2x.png */,
@@ -635,6 +831,79 @@
 				752848D119F2B83C0016F54F /* Icon@2x.png */,
 			);
 			path = "App Icons";
+			sourceTree = "<group>";
+		};
+		75898BFC1A03EABC0026C6A2 /* Connection Classes */ = {
+			isa = PBXGroup;
+			children = (
+				75898BFD1A03EACD0026C6A2 /* Connection.h */,
+				75898BFE1A03EACD0026C6A2 /* Connection.m */,
+			);
+			path = "Connection Classes";
+			sourceTree = "<group>";
+		};
+		75898C001A03EB040026C6A2 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				75898C011A03EB190026C6A2 /* Macros.h */,
+				75898C021A03EB190026C6A2 /* GlobalVariables.h */,
+				75898C031A03EB190026C6A2 /* GlobalVariables.m */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		7593E8761A07F0D500E34F73 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				7593E8771A07F0F600E34F73 /* PatientDetails.h */,
+				7593E8781A07F0F600E34F73 /* PatientDetails.m */,
+				7593E87A1A07F15000E34F73 /* Patient.h */,
+				7593E87B1A07F15000E34F73 /* Patient.m */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		75A3D8F51A0614BD0068D15E /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				75B808531A0BDF7E00187A6B /* Medical History */,
+				7593E8761A07F0D500E34F73 /* Patient */,
+				75A3D8F61A0614DD0068D15E /* Doctor */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		75A3D8F61A0614DD0068D15E /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				75A3D8F71A0615080068D15E /* DoctorInfo.h */,
+				75A3D8F81A0615080068D15E /* DoctorInfo.m */,
+				75A3D8FA1A06151A0068D15E /* Comments.h */,
+				75A3D8FB1A06151A0068D15E /* Comments.m */,
+				75A3D8FD1A0619960068D15E /* DoctorListing.h */,
+				75A3D8FE1A0619960068D15E /* DoctorListing.m */,
+				75A3D9001A063E3C0068D15E /* CommentListing.h */,
+				75A3D9011A063E3C0068D15E /* CommentListing.m */,
+				75BC6F871A0A8FF30063289A /* DegreeDetails.h */,
+				75BC6F881A0A8FF30063289A /* DegreeDetails.m */,
+				75BC6F8A1A0A90A70063289A /* Degree.h */,
+				75BC6F8B1A0A90A70063289A /* Degree.m */,
+				75BC6F8D1A0A94C60063289A /* NoteDetails.h */,
+				75BC6F8E1A0A94C60063289A /* NoteDetails.m */,
+				75BC6F901A0A97D50063289A /* Notes.h */,
+				75BC6F911A0A97D50063289A /* Notes.m */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
+		75A3D9061A06A2D40068D15E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				75B2DF511A0F9CF5007716AA /* Oswald-Bold.ttf */,
+				75B2DF521A0F9CF5007716AA /* Oswald-Light.ttf */,
+				75B2DF531A0F9CF5007716AA /* Oswald-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		75B351F419F9253900D02CDA /* Medical Documents */ = {
@@ -668,9 +937,61 @@
 			path = "Medical Documents";
 			sourceTree = "<group>";
 		};
+		75B7B2F31A11331000038EDF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				75B7B2F41A11332600038EDF /* UIButton+Extentions.h */,
+				75B7B2F51A11332600038EDF /* UIButton+Extentions.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		75B808531A0BDF7E00187A6B /* Medical History */ = {
+			isa = PBXGroup;
+			children = (
+				75B808541A0BDFA400187A6B /* GeneralInfo.h */,
+				75B808551A0BDFA400187A6B /* GeneralInfo.m */,
+				75B808581A0BDFA400187A6B /* GeneralQuestions.h */,
+				75B808591A0BDFA400187A6B /* GeneralQuestions.m */,
+				75B8085C1A0BDFA400187A6B /* FamilyIllness.h */,
+				75B8085D1A0BDFA400187A6B /* FamilyIllness.m */,
+				75A807591A15403C005210CE /* IllnessType.h */,
+				75A8075A1A15403C005210CE /* IllnessType.m */,
+				75A807561A153B26005210CE /* IllnessDetails.h */,
+				75A807571A153B26005210CE /* IllnessDetails.m */,
+				75A807531A153AE6005210CE /* SufferingMembers.h */,
+				75A807541A153AE6005210CE /* SufferingMembers.m */,
+				75B808601A0BDFA400187A6B /* AdditionalQuestions.h */,
+				75B808611A0BDFA400187A6B /* AdditionalQuestions.m */,
+				75B808621A0BDFA400187A6B /* AdditionalInfo.h */,
+				75B808631A0BDFA400187A6B /* AdditionalInfo.m */,
+				7558756B1A0C681700BDFE1C /* Medication.h */,
+				7558756C1A0C681700BDFE1C /* Medication.m */,
+				7558756E1A0C6A2000BDFE1C /* DoctorVisits.h */,
+				7558756F1A0C6A2000BDFE1C /* DoctorVisits.m */,
+				75B808641A0BDFA400187A6B /* MedicalHistory.h */,
+				75B808651A0BDFA400187A6B /* MedicalHistory.m */,
+				75A8073E1A152A8A005210CE /* PatientPresentHealth.h */,
+				75A8073F1A152A8A005210CE /* PatientPresentHealth.m */,
+				75A807411A152D58005210CE /* PatientPastHistroy.h */,
+				75A807421A152D58005210CE /* PatientPastHistroy.m */,
+				75A807441A152D72005210CE /* PastRecord.h */,
+				75A807451A152D72005210CE /* PastRecord.m */,
+				75A8074A1A1533BD005210CE /* Allergies.h */,
+				75A8074B1A1533BD005210CE /* Allergies.m */,
+				75A8074D1A1533E2005210CE /* AllergyInfo.h */,
+				75A8074E1A1533E2005210CE /* AllergyInfo.m */,
+				75A807501A1533F4005210CE /* AllergyStatus.h */,
+				75A807511A1533F4005210CE /* AllergyStatus.m */,
+			);
+			path = "Medical History";
+			sourceTree = "<group>";
+		};
 		75CBD3BE19FBACD000686774 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				75B2DF591A0FD584007716AA /* uploadImage@2x.png */,
+				75B2DF5B1A0FD813007716AA /* userImage@2x.png */,
 				75CBD3CD19FBB8F800686774 /* icon_fieldempty.png */,
 				75CBD3CE19FBB8F800686774 /* icon_fieldfilled.png */,
 				75CBD3CF19FBB8F800686774 /* button_checkboxfilled.png */,
@@ -688,6 +1009,8 @@
 		75CBD3D619FBE2FB00686774 /* Thrid Party */ = {
 			isa = PBXGroup;
 			children = (
+				75A3D9031A0651A50068D15E /* CustomIOS7AlertView.h */,
+				75A3D9041A0651A50068D15E /* CustomIOS7AlertView.m */,
 				75CBD3D719FBE30900686774 /* MGSwipeButton.h */,
 				75CBD3D819FBE30900686774 /* MGSwipeButton.m */,
 				75CBD3D919FBE30900686774 /* MGSwipeTableCell.h */,
@@ -699,6 +1022,17 @@
 		8EB29941551C4B68755BE50E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75AF34431A13E43E0018F3B9 /* LiveSDK.framework */,
+				75AF342E1A13B4DF0018F3B9 /* MobileCoreServices.framework */,
+				75AF342C1A13B4BC0018F3B9 /* libGTLTouchStaticLib.a */,
+				75B341441A128D9400FC11FD /* libz.dylib */,
+				75B341421A128D8A00FC11FD /* libc++.dylib */,
+				75B341401A128D8000FC11FD /* QuartzCore.framework */,
+				75B3413E1A128D7700FC11FD /* SystemConfiguration.framework */,
+				75B3413C1A128D6E00FC11FD /* Security.framework */,
+				75B3413A1A128D6500FC11FD /* CFNetwork.framework */,
+				7593E87F1A07FFEC00E34F73 /* FBUserSettingsViewResources.bundle */,
+				7593E87D1A07FFC500E34F73 /* FacebookSDK.framework */,
 				7B8C5E22FBDC5BFD208D8D52 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -755,6 +1089,7 @@
 				TargetAttributes = {
 					7528481119F2354B0016F54F = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = W95KR4DHN8;
 					};
 					7528482D19F2354B0016F54F = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -796,6 +1131,7 @@
 				7528487719F26D660016F54F /* button_commentnote@2x.png in Resources */,
 				752848C619F2B0ED0016F54F /* Splash_5.png in Resources */,
 				75CBD3F819FBFCC300686774 /* button_share.png in Resources */,
+				75AF8D071A0DEE74000EBF6C /* icon_directions@2x.png in Resources */,
 				75B3520519F9254600D02CDA /* button_delete@2x.png in Resources */,
 				75CBD3C119FBAD1E00686774 /* button_common.png in Resources */,
 				75CBD3EC19FBF75E00686774 /* icon_connectmiddle.png in Resources */,
@@ -808,6 +1144,7 @@
 				75CBD3E619FBF3D200686774 /* button_plus.png in Resources */,
 				75CBD3E419FBE8AC00686774 /* button_delete.png in Resources */,
 				7528489819F26D8C0016F54F /* icon_ratespec_half@2x.png in Resources */,
+				75AF8D081A0DEE74000EBF6C /* icon_recommenddoctor@2x.png in Resources */,
 				752848D819F2B83C0016F54F /* Icon.png in Resources */,
 				75B351E519F901B000D02CDA /* icon_edu.png in Resources */,
 				752848D719F2B83C0016F54F /* Icon-60@2x.png in Resources */,
@@ -824,8 +1161,8 @@
 				75B351D619F8DC3200D02CDA /* DoctorCommentsCustomCell.xib in Resources */,
 				7528487B19F26D660016F54F /* button_recdir@2x.png in Resources */,
 				75CBD40919FC094F00686774 /* icon_connectdropbox.png in Resources */,
-				752848B219F2822E0016F54F /* button_checkboxfilled@2x.png in Resources */,
 				7528489319F26D8C0016F54F /* icon_mydoctor@2x.png in Resources */,
+				75AF8D051A0DEE74000EBF6C /* icon_contactdoctor@2x.png in Resources */,
 				75B3520D19F9254600D02CDA /* icon_connectmiddle@2x.png in Resources */,
 				75B351E019F8FA7600D02CDA /* icon_stetho.png in Resources */,
 				75CBD40319FC07BC00686774 /* ShareCustomCell.xib in Resources */,
@@ -843,26 +1180,36 @@
 				7528489219F26D8C0016F54F /* icon_favoritedoctor@2x.png in Resources */,
 				7528487F19F26D660016F54F /* icon_mydoctor_nactive@2x.png in Resources */,
 				7528486719F2498C0016F54F /* MedicalHistoryCustomCell.xib in Resources */,
+				75B2DF561A0F9CF5007716AA /* Oswald-Regular.ttf in Resources */,
+				75AF8D061A0DEE74000EBF6C /* icon_degree@2x.png in Resources */,
 				75CBD3ED19FBF75E00686774 /* icon_connecttop.png in Resources */,
 				75ADA08719F6CD8F00BA3E44 /* button_recdir@2x.png in Resources */,
 				75B351DD19F8EDC200D02CDA /* james.jpg in Resources */,
+				75B2DF551A0F9CF5007716AA /* Oswald-Light.ttf in Resources */,
 				7528484C19F23CDF0016F54F /* bg.png in Resources */,
 				7528485B19F23CEA0016F54F /* icon_menuseparator_i5@2x.png in Resources */,
 				7528484519F237370016F54F /* MenuCustomCollectionViewCell.xib in Resources */,
+				75CF34751A09395C00C6B035 /* button_pleaserate_full@2x.png in Resources */,
+				75B2DF541A0F9CF5007716AA /* Oswald-Bold.ttf in Resources */,
 				75B3520919F9254600D02CDA /* icon_connectdropbox@2x.png in Resources */,
 				7528487C19F26D660016F54F /* icon_favorite_active@2x.png in Resources */,
+				75CF34761A09395C00C6B035 /* button_pleaserate_null@2x.png in Resources */,
 				7528487E19F26D660016F54F /* icon_mydoctor_active@2x.png in Resources */,
 				752848D519F2B83C0016F54F /* Icon-40@2x.png in Resources */,
 				7528489419F26D8C0016F54F /* icon_ratereg_full@2x.png in Resources */,
+				75B2DF581A0FD01F007716AA /* fb@2x.png in Resources */,
 				752848C219F2A84E0016F54F /* icon_medicaldocs.png in Resources */,
 				75CBD3D019FBB8F800686774 /* icon_fieldempty.png in Resources */,
 				752848D319F2B83C0016F54F /* Icon-29@2x.png in Resources */,
+				75AF34311A13B6A40018F3B9 /* GTMOAuth2ViewTouch.xib in Resources */,
 				75CBD3CA19FBB87D00686774 /* button_checkboxfilled@2x.png in Resources */,
 				7528482419F2354B0016F54F /* Main.storyboard in Resources */,
 				752848D219F2B83C0016F54F /* Icon-29.png in Resources */,
 				7528482919F2354B0016F54F /* LaunchScreen.xib in Resources */,
 				7528487D19F26D660016F54F /* icon_favorite_nactive@2x.png in Resources */,
+				75B2DF5A1A0FD584007716AA /* uploadImage@2x.png in Resources */,
 				7528484D19F23CDF0016F54F /* icon_header@2x.png in Resources */,
+				75B2DF5C1A0FD813007716AA /* userImage@2x.png in Resources */,
 				752848B319F2822E0016F54F /* button_deselectall@2x.png in Resources */,
 				75CBD40B19FC094F00686774 /* icon_connecticloud.png in Resources */,
 				752848B919F2822E0016F54F /* icon_selectall@2x.png in Resources */,
@@ -890,6 +1237,7 @@
 				752848C519F2B0ED0016F54F /* Splash_4.png in Resources */,
 				75B351F319F923C400D02CDA /* MedicalDocumentsCustomCell.xib in Resources */,
 				7528485D19F23CEA0016F54F /* icon_settings@2x.png in Resources */,
+				7593E8801A07FFEC00E34F73 /* FBUserSettingsViewResources.bundle in Resources */,
 				7528482619F2354B0016F54F /* Images.xcassets in Resources */,
 				75B3521219F9254600D02CDA /* icon_image@2x.png in Resources */,
 				7528488019F26D660016F54F /* icon_ratebg@2x.png in Resources */,
@@ -960,32 +1308,69 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A3D9051A0651A50068D15E /* CustomIOS7AlertView.m in Sources */,
+				75B8086A1A0BDFA400187A6B /* FamilyIllness.m in Sources */,
 				75ADA08F19F6D2BB00BA3E44 /* DoctorEducationHistroyCell.m in Sources */,
 				75B351DA19F8E0B300D02CDA /* DoctorNotesCustomCell.m in Sources */,
 				7528484419F237370016F54F /* MenuCustomCollectionViewCell.m in Sources */,
+				75898BFF1A03EACD0026C6A2 /* Connection.m in Sources */,
+				75B8086E1A0BDFA400187A6B /* MedicalHistory.m in Sources */,
+				75A3D9021A063E3C0068D15E /* CommentListing.m in Sources */,
 				75CBD3DC19FBE30900686774 /* MGSwipeTableCell.m in Sources */,
+				7593E8791A07F0F600E34F73 /* PatientDetails.m in Sources */,
+				7583698A1A02B75100F83C7B /* LoginViewController.m in Sources */,
+				75B5A2161A16254400C1ECCC /* SyncViewController.m in Sources */,
 				75CBD40219FC07BC00686774 /* ShareCustomCell.m in Sources */,
+				75A3D8FC1A06151A0068D15E /* Comments.m in Sources */,
+				75B8086D1A0BDFA400187A6B /* AdditionalInfo.m in Sources */,
+				75A807431A152D58005210CE /* PatientPastHistroy.m in Sources */,
 				7528486019F243000016F54F /* MedicalHistoryViewController.m in Sources */,
+				75BC6F8F1A0A94C60063289A /* NoteDetails.m in Sources */,
+				7558756D1A0C681700BDFE1C /* Medication.m in Sources */,
+				75A807461A152D72005210CE /* PastRecord.m in Sources */,
+				75AF34371A13B70E0018F3B9 /* DriveViewController.m in Sources */,
 				75ADA07F19F6B9AF00BA3E44 /* DoctorProfileFooterView.m in Sources */,
+				75A807401A152A8A005210CE /* PatientPresentHealth.m in Sources */,
 				7528481B19F2354B0016F54F /* AppDelegate.m in Sources */,
 				75CBD3F119FBF92900686774 /* AddDocCustomCell.m in Sources */,
+				75BC6F8C1A0A90A70063289A /* Degree.m in Sources */,
 				75CBD3DB19FBE30900686774 /* MGSwipeButton.m in Sources */,
+				75BC6F891A0A8FF30063289A /* DegreeDetails.m in Sources */,
+				75898C071A03F8AF0026C6A2 /* RegistrationViewController.m in Sources */,
+				75A8074F1A1533E2005210CE /* AllergyInfo.m in Sources */,
 				7528481E19F2354B0016F54F /* MyHealth.xcdatamodeld in Sources */,
+				75AF34341A13B6D90018F3B9 /* GTLDrive_Sources.m in Sources */,
+				75A807551A153AE6005210CE /* SufferingMembers.m in Sources */,
+				75B7B2F61A11332600038EDF /* UIButton+Extentions.m in Sources */,
 				752848A519F2795B0016F54F /* DoctorHistoryViewController.m in Sources */,
 				75B91EE819F5602200FDA7F4 /* DoctorProfileViewController.m in Sources */,
+				75A8075B1A15403C005210CE /* IllnessType.m in Sources */,
+				75A3D8FF1A0619960068D15E /* DoctorListing.m in Sources */,
+				7593E87C1A07F15000E34F73 /* Patient.m in Sources */,
+				755875701A0C6A2000BDFE1C /* DoctorVisits.m in Sources */,
 				75CBD41019FC113200686774 /* GloblaSearchViewController.m in Sources */,
 				75B351F219F923C400D02CDA /* MedicalDocumentsCustomCell.m in Sources */,
+				75B8086C1A0BDFA400187A6B /* AdditionalQuestions.m in Sources */,
 				752644EC19F6060200B67525 /* DoctorProfileCustomCell.m in Sources */,
+				75898C041A03EB190026C6A2 /* GlobalVariables.m in Sources */,
 				75CBD3BD19FBA83100686774 /* SettingsViewController.m in Sources */,
 				7528484319F237370016F54F /* HomeViewController.m in Sources */,
 				7528486619F2498C0016F54F /* MedicalHistoryCustomCell.m in Sources */,
 				75CBD3D519FBC3B100686774 /* EmergencyViewController.m in Sources */,
+				75BC6F921A0A97D50063289A /* Notes.m in Sources */,
 				75CBD3FB19FBFD4400686774 /* ShareViewController.m in Sources */,
 				75B351D519F8DC3200D02CDA /* DoctorCommentsCustomCell.m in Sources */,
+				75B808661A0BDFA400187A6B /* GeneralInfo.m in Sources */,
+				75A8074C1A1533BD005210CE /* Allergies.m in Sources */,
 				7528481819F2354B0016F54F /* main.m in Sources */,
 				75ADA07C19F6B88C00BA3E44 /* DoctorProfileHeaderView.m in Sources */,
 				75B351EE19F9201400D02CDA /* MedicalDocumentsViewController.m in Sources */,
+				75A807521A1533F4005210CE /* AllergyStatus.m in Sources */,
 				75CBD3E919FBF59D00686774 /* AddDocumentsViewController.m in Sources */,
+				75A3D8F91A0615080068D15E /* DoctorInfo.m in Sources */,
+				75A807581A153B26005210CE /* IllnessDetails.m in Sources */,
+				75B808681A0BDFA400187A6B /* GeneralQuestions.m in Sources */,
+				75B2DF501A0F32CC007716AA /* STCollapseTableView.m in Sources */,
 				7528489E19F278C90016F54F /* DoctorHistoryTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1110,9 +1495,48 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BrilliSoft, LLC (W95KR4DHN8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: BrilliSoft, LLC (W95KR4DHN8)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/Ashish/Desktop,
+					"$(PROJECT_DIR)/MyHealth",
+				);
 				INFOPLIST_FILE = MyHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Ashish/Desktop/Google/google-api-objectivec-client-read-only/Source/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-JSONKit\"",
+					"-l\"Pods-JSONModel\"",
+					"-l\"Pods-MBProgressHUD\"",
+					"-l\"Pods-SDWebImage\"",
+					"-l\"Pods-WYPopoverController\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8e6b386-e575-41ea-9327-1b6c50f5dd2f";
+				USER_HEADER_SEARCH_PATHS = "/Users/Ashish/Desktop/Google/google-api-objectivec-client-read-only/Source/**";
 			};
 			name = Debug;
 		};
@@ -1122,9 +1546,48 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BrilliSoft, LLC (W95KR4DHN8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: BrilliSoft, LLC (W95KR4DHN8)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/Ashish/Desktop,
+					"$(PROJECT_DIR)/MyHealth",
+				);
 				INFOPLIST_FILE = MyHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Ashish/Desktop/Google/google-api-objectivec-client-read-only/Source/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-JSONKit\"",
+					"-l\"Pods-JSONModel\"",
+					"-l\"Pods-MBProgressHUD\"",
+					"-l\"Pods-SDWebImage\"",
+					"-l\"Pods-WYPopoverController\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8e6b386-e575-41ea-9327-1b6c50f5dd2f";
+				USER_HEADER_SEARCH_PATHS = "/Users/Ashish/Desktop/Google/google-api-objectivec-client-read-only/Source/**";
 			};
 			name = Release;
 		};

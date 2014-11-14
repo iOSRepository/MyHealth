@@ -23,6 +23,7 @@
     [super viewDidLoad];
     [self.tblView_medicalHistory registerNib:[UINib nibWithNibName:@"MedicalDocumentsCustomCell" bundle:nil] forCellReuseIdentifier:@"Reuse"];
     // Do any additional setup after loading the view.
+    [_btn_back setHitTestEdgeInsets:UIEdgeInsetsMake(-10, -10, -10, -10)];
 }
 
 - (void)didReceiveMemoryWarning {

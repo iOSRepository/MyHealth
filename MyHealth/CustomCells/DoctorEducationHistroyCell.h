@@ -10,4 +10,7 @@
 
 @interface DoctorEducationHistroyCell : UITableViewCell
 
+@property (nonatomic,retain) IBOutlet UILabel *lbl_degree;
+@property (nonatomic,retain) IBOutlet UILabel *lbl_detail;
+
 @end

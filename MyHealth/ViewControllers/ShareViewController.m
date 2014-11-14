@@ -8,7 +8,10 @@
 
 #import "ShareViewController.h"
 #import "ShareCustomCell.h"
-@interface ShareViewController ()
+#import "DriveViewController.h"
+#import "SyncViewController.h"
+
+@interface ShareViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
     ShareCustomCell *cell;
     NSMutableArray *arrayShareType;
@@ -37,9 +40,19 @@
     [arrayImages addObject:@"icon_connectonedrive.png"];
     
     _tblView_share.scrollEnabled = NO;
+    [_btn_back setHitTestEdgeInsets:UIEdgeInsetsMake(-10, -10, -10, -10)];
     // Do any additional setup after loading the view.
 }
-
+-(void)viewWillAppear:(BOOL)animated
+{
+    if ([self isModal]) {
+        
+//        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//        SyncViewController *viewCtrl = [stinitWithNibName:@"SyncViewController" bundle:nil];
+//        [self.navigationController pushViewController:viewCtrl animated:YES];
+    }
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -70,10 +83,42 @@
 {
     return 64;
 }
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 0) {
+        
+        UIStoryboard *stroryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        SyncViewController *viewCtrl = [stroryboard instantiateViewControllerWithIdentifier:@"SyncViewController"];
+        [self.navigationController pushViewController:viewCtrl animated:YES];
+        
+    } else if (indexPath.row == 1) {
+        
+        UIStoryboard *stroryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        DriveViewController *viewCtrl = [stroryboard instantiateViewControllerWithIdentifier:@"DriveViewController"];
+        [self.navigationController pushViewController:viewCtrl animated:YES];
+    }
+}
 // Navigate Back
 -(IBAction)navigateback:(id)sender
 {
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+#pragma mark -  DropBox Methods
+-(void)syncAppFilesAndFolersWithDropbox
+{
+    
+}
+- (BOOL)isModal {
+    if([self presentingViewController])
+        return YES;
+    if([[self presentingViewController] presentedViewController] == self)
+        return YES;
+    if([[[self navigationController] presentingViewController] presentedViewController] == [self navigationController])
+        return YES;
+    if([[[self tabBarController] presentingViewController] isKindOfClass:[UITabBarController class]])
+        return YES;
+    
+    return NO;
+}
 @end

@@ -7,7 +7,9 @@
 //
 
 #import "JSONModel.h"
-
+#import "DoctorInfo.h"
 @interface DoctorListing : JSONModel
+
+@property (nonatomic, retain) NSMutableArray <DoctorInfo> *arrayListing;
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIButton+Extentions.h"
 @interface SettingsViewController : UIViewController
-
+@property (nonatomic, retain) IBOutlet UIButton *btn_back;
 @end

@@ -10,5 +10,8 @@
 
 @interface MedicalHistoryCustomCell : UITableViewCell
 
-@property (nonatomic, retain) IBOutlet UIImageView *imgView_bg;
+@property (nonatomic, retain) IBOutlet UIImageView *imgView_heart;
+@property (nonatomic, retain) IBOutlet UIButton *btn_check;
+@property (nonatomic, retain) IBOutlet UILabel *lbl_heading;
+@property (nonatomic, retain) IBOutlet UITextField *txtfield_value;
 @end

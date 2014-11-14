@@ -26,7 +26,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QMZ-pY-i4K">
-                        <rect key="frame" x="55" y="37" width="40" height="40"/>
+                        <rect key="frame" x="60" y="37" width="40" height="40"/>
                     </imageView>
                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b0e-d0-BJd">
                         <rect key="frame" x="55" y="155" width="50" height="1"/>

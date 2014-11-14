@@ -10,4 +10,14 @@
 
 @implementation DoctorListing
 
+-(id)init{
+    
+    self = [super init];
+    
+    if (self) {
+        
+        self.arrayListing = (id)[NSMutableArray new];
+    }
+    return self;
+}
 @end

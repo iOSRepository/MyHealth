@@ -7,16 +7,26 @@
 //
 
 #import "AppDelegate.h"
-
 @interface AppDelegate ()
 
 @end
 
-@implementation AppDelegate
 
+@implementation AppDelegate
+@synthesize patient = _patient;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    _patient = [[Patient alloc] init];
+    [[NSUserDefaults standardUserDefaults] setValue:@"YES" forKey:@"refresh"];
+    
+    DBSession *dbSession = [[DBSession alloc]
+                            initWithAppKey:@"9bbmoyag3po37v2"
+                            appSecret:@"qkt7nxz4jpiks71"
+                            root:kDBRootAppFolder]; // either kDBRootAppFolder or kDBRootDropbox
+    [DBSession setSharedSession:dbSession];
     // Override point for customization after application launch.
+    
     return YES;
 }
 
@@ -43,7 +53,44 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    
+    if ([[url scheme] isEqualToString:@"fb733653706713421"]) {
+        
+        return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+        
+    } else {
+        
+        if ([[DBSession sharedSession] handleOpenURL:url]) {
+            if ([[DBSession sharedSession] isLinked]) {
+                NSLog(@"App linked successfully!");
+                // At this point you can start making API calls
+            }
+            return YES;
+        }
+        return NO;
+    }
+}
+#pragma mark - Public method implementation
 
+-(void)openActiveSessionWithPermissions:(NSArray *)permissions allowLoginUI:(BOOL)allowLoginUI{
+    [FBSession openActiveSessionWithReadPermissions:permissions
+                                       allowLoginUI:allowLoginUI
+                                  completionHandler:^(FBSession *session, FBSessionState status, NSError *error) {
+                                      // Create a NSDictionary object and set the parameter values.
+                                      NSDictionary *sessionStateInfo = [[NSDictionary alloc] initWithObjectsAndKeys:
+                                                                        session, @"session",
+                                                                        [NSNumber numberWithInteger:status], @"state",
+                                                                        error, @"error",
+                                                                        nil];
+                                      
+                                      // Create a new notification, add the sessionStateInfo dictionary to it and post it.
+                                      [[NSNotificationCenter defaultCenter] postNotificationName:@"SessionStateChangeNotification"
+                                                                                          object:nil
+                                                                                        userInfo:sessionStateInfo];
+                                      
+                                  }];
+}
 #pragma mark - Core Data stack
 
 @synthesize managedObjectContext = _managedObjectContext;

@@ -11,7 +11,7 @@
 
 //App Consts
 #define APP_KEY @"6a005295c93b619124c51b33d0af0c71"
-#define BASE_URL @"http://x-api.staging.icarasia.com/v3.6/my/en/"
+#define BASE_URL @"myhealth.brillisoft.net/iphoneAPIs/api/"
 
 //iCar Asia API's suffixes
 #define AUTH_API @"authentication/token"

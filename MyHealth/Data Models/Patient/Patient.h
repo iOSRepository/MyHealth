@@ -7,7 +7,8 @@
 //
 
 #import "JSONModel.h"
-
+#import "PatientDetails.h"
 @interface Patient : JSONModel
 
+@property (nonatomic, retain) NSMutableDictionary <PatientDetails> *userDetails;
 @end

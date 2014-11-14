@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIButton+Extentions.h"
 @interface ShareViewController : UIViewController
 
 @property (nonatomic, retain) IBOutlet UITableView *tblView_share;
+@property (nonatomic, retain) IBOutlet UIButton *btn_back;
 @end
